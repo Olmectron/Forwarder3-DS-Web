@@ -1,0 +1,49 @@
+{
+  "name": "polymer-starter-kit",
+  "version": "4.0.0",
+  "description": "A starting point for Polymer apps",
+  "author": "The Polymer Authors",
+  "license": "BSD-3-Clause",
+  "repository": "Polymer/polymer-starter-kit",
+  "scripts": {
+    "build-big": "node --max-old-space-size=8192 C:\\Users\\olmec\\AppData\\Roaming\\npm\\node_modules\\polymer-cli\\bin\\polymer.js build",
+    "deploy": "firebase deploy --project forwarder3ds --only hosting", 
+    "start": "polymer serve",
+    "build": "polymer build",
+    "lint": "polymer lint",
+    "test": "polymer test",
+    "test:integration": "polymer build # test that psk builds without error with the CLI"
+  },
+  "dependencies": {
+    "@polymer/app-layout": "^3.1.0",
+    "@polymer/app-route": "^3.0.2",
+    "@polymer/iron-collapse": "^3.0.1",
+    "@polymer/iron-flex-layout": "^3.0.1",
+    "@polymer/iron-icons": "^3.0.1",
+    "@polymer/iron-iconset-svg": "^3.0.1",
+    "@polymer/iron-media-query": "^3.0.1",
+    "@polymer/iron-pages": "^3.0.1",
+    "@polymer/iron-selector": "^3.0.1",
+    "@polymer/paper-button": "^3.0.1",
+    "@polymer/paper-checkbox": "^3.1.0",
+    "@polymer/paper-dropdown-menu": "^3.1.0",
+    "@polymer/paper-fab": "^3.0.1",
+    "@polymer/paper-icon-button": "^3.0.2",
+    "@polymer/paper-item": "^3.0.1",
+    "@polymer/paper-listbox": "^3.0.1",
+    "@polymer/paper-toast": "^3.0.1",
+    "@polymer/polymer": "^3.3.1",
+    "@webcomponents/webcomponentsjs": "^2.4.2",
+    "js-crc": "^0.2.0",
+    "jszip": "^3.6.0",
+    "jszip-utils": "^0.1.0",
+    "web-animations-js": "^2.3.2"
+  },
+  "devDependencies": {
+    "polymer-cli": "^1.9.11",
+    "wct-browser-legacy": "^1.0.2"
+  },
+  "engines": {
+    "node": ">=8.0"
+  }
+}
