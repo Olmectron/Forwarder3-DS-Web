@@ -1,7 +1,7 @@
 {
-  "name": "My App",
-  "short_name": "My App",
-  "description": "My App description",
+  "name": "Forwarder 3-DS",
+  "short_name": "Forwarder 3-DS",
+  "description": "Forwarder 3-DS",
   "icons": [
     {
       "src": "images/manifest/icon-192x192.png",
