@@ -2,7 +2,7 @@
 
 
 
-This was built using [Polymer Starter Kit](https://github.com/Polymer/polymer-starter-kit) template.
+This was built using [Polymer Starter Kit](https://github.com/Polymer/polymer-starter-kit) template. Head there to understand about how to fork or contribute to this project.
 
 ### Usage
 
